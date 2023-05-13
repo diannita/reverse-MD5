@@ -8,8 +8,11 @@ El script requiere la librería hashlib para funcionar correctamente. Esta libre
 1. Coloca los hashes MD5 que se desean crackear en el archivo hashes.txt. Cada hash debe estar en una línea separada.
 2. Coloca las palabras del diccionario "RockYou" en el archivo rockyou.txt. Cada palabra debe estar en una línea separada.
 3. Coloca otras palabras comunes en los archivos passwords.txt y darkc0de.txt. Cada palabra debe estar en una línea separada.
-4. Ejecuta el script desde la línea de comandos de Python con el comando python crack.py.
+4. Ejecuta el script desde la línea de comandos de Python con el comando python app.py.
 5. Los resultados se guardarán en el archivo new_passwords.txt. Este archivo contendrá los hashes SHA256 de las contraseñas descifradas.
+
+## Example
+Se provee este projecto con hashes.txt (PASSWORD.md) realizado, como muestra del funcionamiento de la aplicacion.
 
 ## Contribución
 Este proyecto es OpenSource, por lo que cualquier persona puede contribuir y mejorarlo. Si deseas contribuir, simplemente haz un fork del proyecto y envía tus cambios a través de un pull request.
